@@ -1,0 +1,37 @@
+location / {
+    root /path;
+}
+    
+server {
+    listen 8080;
+    server_name server1;
+
+    root /root/server1;
+
+    location /static {
+        root /path/static;
+    }
+
+    location /echo {
+        root /path/echo;
+    }
+}
+
+server {
+    listen 9090;
+    server_name server2;
+
+    root /root/server2;
+
+    location /st {
+        root /path/st;
+    }
+
+    location /ec {
+        
+    }
+
+    location /e {
+        root /path/e;
+    }
+}

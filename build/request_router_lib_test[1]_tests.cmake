@@ -1,0 +1,5 @@
+add_test( requestRouterTest.EchoTest /c/Users/Nick/cs130/hr-web-server/build/bin/request_router_lib_test [==[--gtest_filter=requestRouterTest.EchoTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( requestRouterTest.EchoTest PROPERTIES WORKING_DIRECTORY /c/Users/Nick/cs130/hr-web-server/tests/request_router)
+add_test( requestRouterTest.StaticTest /c/Users/Nick/cs130/hr-web-server/build/bin/request_router_lib_test [==[--gtest_filter=requestRouterTest.StaticTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties( requestRouterTest.StaticTest PROPERTIES WORKING_DIRECTORY /c/Users/Nick/cs130/hr-web-server/tests/request_router)
+set( request_router_lib_test_TESTS requestRouterTest.EchoTest requestRouterTest.StaticTest)

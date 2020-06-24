@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_statusreq_handler.a  CMakeFiles/bhttp_statusreq_handler.dir/libraries/boost-http/src/status_request_handler.cpp.o
+/usr/bin/ranlib libbhttp_statusreq_handler.a

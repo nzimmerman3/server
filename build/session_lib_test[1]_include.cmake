@@ -1,0 +1,5 @@
+if(EXISTS "/c/Users/Nick/cs130/hr-web-server/build/session_lib_test[1]_tests.cmake")
+  include("/c/Users/Nick/cs130/hr-web-server/build/session_lib_test[1]_tests.cmake")
+else()
+  add_test(session_lib_test_NOT_BUILT session_lib_test_NOT_BUILT)
+endif()

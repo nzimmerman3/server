@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsession_lib.a  CMakeFiles/session_lib.dir/src/session.cc.o
+/usr/bin/ranlib libsession_lib.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_ereq_handler.a  CMakeFiles/bhttp_ereq_handler.dir/libraries/boost-http/src/echo_request_handler.cpp.o
+/usr/bin/ranlib libbhttp_ereq_handler.a

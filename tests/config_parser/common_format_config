@@ -1,0 +1,13 @@
+port 8080;
+
+location "/echo" EchoHandler {
+    
+}
+
+location "/images" StaticHandler {
+    root "./img";
+}
+
+location "/documents" StaticHandler {
+    root "./docs";
+}

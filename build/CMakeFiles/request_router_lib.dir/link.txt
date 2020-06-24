@@ -1,0 +1,2 @@
+/usr/bin/ar qc librequest_router_lib.a  CMakeFiles/request_router_lib.dir/src/request_router.cc.o
+/usr/bin/ranlib librequest_router_lib.a

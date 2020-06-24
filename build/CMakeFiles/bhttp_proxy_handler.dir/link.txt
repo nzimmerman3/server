@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_proxy_handler.a  CMakeFiles/bhttp_proxy_handler.dir/libraries/boost-http/src/proxy_request_handler.cpp.o
+/usr/bin/ranlib libbhttp_proxy_handler.a

@@ -1,0 +1,5 @@
+if(EXISTS "/c/Users/Nick/cs130/hr-web-server/build/request_router_lib_test[1]_tests.cmake")
+  include("/c/Users/Nick/cs130/hr-web-server/build/request_router_lib_test[1]_tests.cmake")
+else()
+  add_test(request_router_lib_test_NOT_BUILT request_router_lib_test_NOT_BUILT)
+endif()

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/session_lib_test.dir/tests/session/session_test.cc.o  -o bin/session_lib_test libsession_lib.a googletest/googlemock/gtest/libgtest_main.a /usr/lib/x86_64-linux-gnu/libboost_system.a libbhttp_req_parser.a libserver_status_lib.a googletest/googlemock/gtest/libgtest.a -lpthread 

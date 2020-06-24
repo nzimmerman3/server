@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/c/Users/Nick/cs130/hr-web-server/include/server_status_singleton.h
+map
+-
+vector
+-
+mutex
+-
+../libraries/boost-http/include/response.hpp
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/response.hpp
+../libraries/boost-http/include/request.hpp
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request.hpp
+
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request.hpp
+string
+-
+vector
+-
+map
+-
+
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/response.hpp
+string
+-
+vector
+-
+map
+-
+boost/asio.hpp
+-
+
+/c/Users/Nick/cs130/hr-web-server/src/server_status_singleton.cc
+../include/server_status_singleton.h
+/c/Users/Nick/cs130/hr-web-server/include/server_status_singleton.h
+

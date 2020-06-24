@@ -1,0 +1,6 @@
+server {
+    listen 8080;
+    echo /echo;
+    static /images /img;
+    static /jpeg /jpg;
+}

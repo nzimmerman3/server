@@ -1,0 +1,5 @@
+if(EXISTS "/c/Users/Nick/cs130/hr-web-server/build/404_request_handler_test[1]_tests.cmake")
+  include("/c/Users/Nick/cs130/hr-web-server/build/404_request_handler_test[1]_tests.cmake")
+else()
+  add_test(404_request_handler_test_NOT_BUILT 404_request_handler_test_NOT_BUILT)
+endif()

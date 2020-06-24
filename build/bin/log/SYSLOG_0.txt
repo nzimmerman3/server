@@ -1,0 +1,40 @@
+[2020-Jun-11 22:59:55.865119]    ThreadID:[0x00007f5128d50740] Severity:[info] Starting Config File Parsing
+[2020-Jun-11 22:59:55.871726]    ThreadID:[0x00007f5128d50740] Severity:[info] Finished Config File Parsing
+[2020-Jun-11 22:59:55.882845]    ThreadID:[0x00007f5128d50740] Severity:[info] PORT: 8080
+[2020-Jun-11 22:59:55.887113]    ThreadID:[0x00007f5128d50740] Severity:[info] Opened database successfully
+[2020-Jun-11 22:59:55.887776]    ThreadID:[0x00007f5128d50740] Severity:[info] MEME table created successfully
+[2020-Jun-11 22:59:55.887972]    ThreadID:[0x00007f5128d50740] Severity:[info] Opened database successfully
+[2020-Jun-11 22:59:55.888399]    ThreadID:[0x00007f5128d50740] Severity:[info] MEME table created successfully
+[2020-Jun-11 22:59:55.888859]    ThreadID:[0x00007f5128d50740] Severity:[info] Server starting up
+[2020-Jun-11 23:00:04.106385]    ThreadID:[0x00007f5128d50740] Severity:[info] IP Address:[127.0.0.1] Opening new connection.
+[2020-Jun-11 23:00:04.112766]    ThreadID:[0x00007f5128d50740] Severity:[info] IP Address:[127.0.0.1] Starting up a new session.
+[2020-Jun-11 23:00:04.163131]    ThreadID:[0x00007f5127870700] Severity:[info] Meme create request received
+[2020-Jun-11 23:00:04.357557]    ThreadID:[0x00007f5128d50740] Severity:[info] IP Address:[127.0.0.1] Opening new connection.
+[2020-Jun-11 23:00:04.360215]    ThreadID:[0x00007f5128d50740] Severity:[info] IP Address:[127.0.0.1] Starting up a new session.
+[2020-Jun-11 23:00:11.503576]    ThreadID:[0x00007f5127870700] Severity:[info] Meme create-submission request received
+[2020-Jun-11 23:00:11.504133]    ThreadID:[0x00007f5127870700] Severity:[info] Total Form Body:memetemplates=spongebob&title=title1&toptext=top1&bottomtext=bot1&action=create
+[2020-Jun-11 23:00:11.504460]    ThreadID:[0x00007f5127870700] Severity:[info] Meme image choice:spongebob
+[2020-Jun-11 23:00:11.504706]    ThreadID:[0x00007f5127870700] Severity:[info] Meme title:title1
+[2020-Jun-11 23:00:11.505159]    ThreadID:[0x00007f5127870700] Severity:[info] Meme top text:top1
+[2020-Jun-11 23:00:11.505434]    ThreadID:[0x00007f5127870700] Severity:[info] Meme bottom text:bot1
+[2020-Jun-11 23:00:11.505821]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID, 0, inserted successfully
+[2020-Jun-11 23:00:16.134751]    ThreadID:[0x00007f5127060700] Severity:[info] IP Address:[127.0.0.1] Closing connection.
+[2020-Jun-11 23:00:16.141423]    ThreadID:[0x00007f5127870700] Severity:[info] Meme create request received
+[2020-Jun-11 23:00:23.714547]    ThreadID:[0x00007f5127870700] Severity:[info] Meme create-submission request received
+[2020-Jun-11 23:00:23.714752]    ThreadID:[0x00007f5127870700] Severity:[info] Total Form Body:memetemplates=spongebob&title=title2&toptext=top2&bottomtext=bot2&action=create
+[2020-Jun-11 23:00:23.715022]    ThreadID:[0x00007f5127870700] Severity:[info] Meme image choice:spongebob
+[2020-Jun-11 23:00:23.715248]    ThreadID:[0x00007f5127870700] Severity:[info] Meme title:title2
+[2020-Jun-11 23:00:23.715488]    ThreadID:[0x00007f5127870700] Severity:[info] Meme top text:top2
+[2020-Jun-11 23:00:23.715715]    ThreadID:[0x00007f5127870700] Severity:[info] Meme bottom text:bot2
+[2020-Jun-11 23:00:23.716014]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID, 1, inserted successfully
+[2020-Jun-11 23:00:28.052693]    ThreadID:[0x00007f5127870700] Severity:[info] Meme vote request received
+[2020-Jun-11 23:00:28.052913]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID 1 found in the database
+[2020-Jun-11 23:00:28.053065]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID 0 found in the database
+[2020-Jun-11 23:00:29.993091]    ThreadID:[0x00007f5127870700] Severity:[info] Meme vote-submission request received
+[2020-Jun-11 23:00:29.993517]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID 0 found in the database
+[2020-Jun-11 23:00:29.994190]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID 0 successfully voted on
+[2020-Jun-11 23:00:29.994570]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID 1 found in the database
+[2020-Jun-11 23:00:29.994943]    ThreadID:[0x00007f5127870700] Severity:[info] Meme with ID 0 found in the database
+[2020-Jun-11 23:00:35.150434]    ThreadID:[0x00007f5127870700] Severity:[info] Meme leaderboard request received
+[2020-Jun-11 23:00:35.150672]    ThreadID:[0x00007f5127870700] Severity:[info] Retrieving all entries from the database
+[2020-Jun-11 23:00:55.785036]    ThreadID:[0x00007f5128d50740] Severity:[info] Interrupt signal (2) received.

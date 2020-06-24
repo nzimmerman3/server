@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_healthreq_handler.a  CMakeFiles/bhttp_healthreq_handler.dir/libraries/boost-http/src/health_request_handler.cpp.o
+/usr/bin/ranlib libbhttp_healthreq_handler.a

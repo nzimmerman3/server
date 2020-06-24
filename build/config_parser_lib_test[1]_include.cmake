@@ -1,0 +1,5 @@
+if(EXISTS "/c/Users/Nick/cs130/hr-web-server/build/config_parser_lib_test[1]_tests.cmake")
+  include("/c/Users/Nick/cs130/hr-web-server/build/config_parser_lib_test[1]_tests.cmake")
+else()
+  add_test(config_parser_lib_test_NOT_BUILT config_parser_lib_test_NOT_BUILT)
+endif()

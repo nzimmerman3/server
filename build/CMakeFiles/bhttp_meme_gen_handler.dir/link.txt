@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_meme_gen_handler.a  CMakeFiles/bhttp_meme_gen_handler.dir/libraries/boost-http/src/meme_gen_request_handler.cpp.o
+/usr/bin/ranlib libbhttp_meme_gen_handler.a

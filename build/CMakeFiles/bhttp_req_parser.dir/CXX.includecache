@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request.hpp
+string
+-
+vector
+-
+map
+-
+
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request_parser.hpp
+tuple
+-
+request.hpp
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request.hpp
+
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/src/request_parser.cpp
+../include/request_parser.hpp
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request_parser.hpp
+../include/request.hpp
+/c/Users/Nick/cs130/hr-web-server/libraries/boost-http/include/request.hpp
+

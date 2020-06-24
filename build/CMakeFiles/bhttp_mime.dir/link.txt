@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_mime.a  CMakeFiles/bhttp_mime.dir/libraries/boost-http/src/mime_types.cpp.o
+/usr/bin/ranlib libbhttp_mime.a

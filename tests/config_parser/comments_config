@@ -1,0 +1,9 @@
+foo "bar";
+
+#Here is an example of a comment
+
+server {
+  listen   80;
+  server_name foo.com;
+  root /home/ubuntu/sites/foo/;
+}

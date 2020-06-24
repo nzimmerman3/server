@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_404req_handler.a  CMakeFiles/bhttp_404req_handler.dir/libraries/boost-http/src/404_request_handler.cpp.o
+/usr/bin/ranlib libbhttp_404req_handler.a

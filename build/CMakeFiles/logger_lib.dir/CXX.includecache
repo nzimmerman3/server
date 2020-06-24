@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/logger.h
+boost/log/core.hpp
+-
+boost/log/trivial.hpp
+-
+boost/log/expressions.hpp
+-
+boost/log/utility/setup/file.hpp
+-
+boost/log/utility/setup/console.hpp
+-
+boost/log/utility/setup/common_attributes.hpp
+-
+boost/log/sinks/text_file_backend.hpp
+-
+boost/log/sources/global_logger_storage.hpp
+-
+boost/log/sources/record_ostream.hpp
+-
+boost/log/sources/logger.hpp
+-
+boost/move/utility_core.hpp
+-
+boost/log/sources/severity_feature.hpp
+-
+boost/log/sources/severity_logger.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+
+/c/Users/Nick/cs130/hr-web-server/src/logger.cc
+logger.h
+/c/Users/Nick/cs130/hr-web-server/src/logger.h
+

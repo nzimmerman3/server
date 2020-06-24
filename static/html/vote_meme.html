@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<title>Vote Memes</title>
+	<style>
+		body {
+			text-align: center;
+		}
+
+		.memes {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+
+		.responsive-img {
+		  width: 100%;
+		  max-width: 400px;
+		  height: auto;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Choose the better Meme</h1>
+	<form method="POST">
+
+		<div class="memes">
+			<div class="meme">
+				<img class="responsive-img" src="http://www.hardreboot.cs130.org/static/hardreboot.jpeg"> 
+			</div>
+
+			<div class="meme">
+				<img class="responsive-img" src="http://www.hardreboot.cs130.org/static/hardreboot.jpeg"> 
+			</div>
+		</div>
+		
+
+		<input type="hidden" name="left" value="left-meme-id">
+		<input type="hidden" name="right" value="right-meme-id">
+
+		<button type="submit" name="action" value="vote-left">Left</button>
+		<button type="submit" name="action" value="vote-right">Right</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserver_status_lib.a  CMakeFiles/server_status_lib.dir/src/server_status_singleton.cc.o
+/usr/bin/ranlib libserver_status_lib.a

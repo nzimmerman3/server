@@ -1,0 +1,21 @@
+port 8080;
+
+location "/echo" EchoHandler {
+
+}
+
+location "/echo2" EchoHandler {
+
+}
+
+location "/static" StaticHandler {
+    root "./static_1";
+}
+
+location "/static1" StaticHandler {
+    root "/static_1";
+}
+
+location "/static2" StaticHandler {
+    root "static_2";
+}

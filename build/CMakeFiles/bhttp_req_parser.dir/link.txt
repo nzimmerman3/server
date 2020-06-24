@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbhttp_req_parser.a  CMakeFiles/bhttp_req_parser.dir/libraries/boost-http/src/request_parser.cpp.o
+/usr/bin/ranlib libbhttp_req_parser.a

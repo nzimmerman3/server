@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmeme_gen_frontend_lib.a  CMakeFiles/meme_gen_frontend_lib.dir/src/meme_gen_frontend.cc.o
+/usr/bin/ranlib libmeme_gen_frontend_lib.a

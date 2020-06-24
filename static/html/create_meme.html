@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<title>Create Meme</title>
+	<style>
+		body {
+			text-align: center;
+		}
+	</style>
+</head> 
+<body>
+	<h1>Create Meme</h1>
+	<select name="memetemplates" form="createForm">
+		<option value ="meme1">Meme1</option>
+		<option value ="meme2">Meme2</option>
+		<option value ="meme3">Meme3</option>
+		<option value ="meme4">Meme4</option>
+		<option value ="meme5">Meme5</option>
+	</select> 	
+
+	<form method="POST" id="createForm">
+		<input type="text" id="title" name="title" placeholder="Title..."><br>
+		<input type="text" id="toptext" name="toptext" placeholder="Top text..."><br>
+		<input type="text" id="bottomtext" name="bottomtext" placeholder="Bottom text..."><br>
+		<button type="submit" name="action" value="create">Create</button>
+	</form>
+
+</body>
+</html>
